@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    background-image: green;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
+    background-image: url("https://www.pressassociation.com/wp-content/uploads/2016/06/homepage-banner.jpg");
+    background-size:100vw 100vh ;
+
+    
+}
+@media (max-width: 400px){
+#btn-pone, #btn-ptwo, #btn-reset {
+        width: 80px;
+        text-align: center;
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 850px){
+    body{
+       background-image:url("https://i.pinimg.com/736x/e3/8a/b8/e38ab8b8c41fa1bff7e0b3c07d8e074c--track-senior-pictures-senior-photos.jpg");
+ 
+    }
+    
+}
+html{
+    height: 100%;
+    width:100%;
+}
+
+#scoreCounter{
+    margin-top: 10%;
+    border: 2px solid white;
+    border-radius: 80px;
+    padding: 1%;
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: rgba(150, 150, 150, 0.5);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                 0px 8px 13px rgba(0, 0, 0, 0.2),
+                 0px 18px 23px rgba(0, 0, 0, 0.2);
+    
+}
+#maxValue{
+    width: 60px;
+}
+#finalScore{
+    margin-top: 1%;
+    border: 2px solid white;
+    border-radius: 80px;
+    padding: 1%;
+    text-align: center;
+    
+    max-width: 500px;
+    background-color: rgba(150, 150, 150, 0.5);
+    text-shadow:    0px 4px 3px rgba(0, 0, 0, 0.5),
+                    0px 8px 13px rgba(0, 0, 0, 0.2),
+                    0px 18px 23px rgba(0, 0, 0, 0.2);
+
+}
+
+
+#finalScore h3{
+    margin-top: 0%;
+}
+#title{
+    letter-spacing: 2px;
+}
+#btn-totalScoreReset{
+    width: 150px;
+}
