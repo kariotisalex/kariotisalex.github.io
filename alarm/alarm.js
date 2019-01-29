@@ -71,7 +71,7 @@ document.getElementById("stopAlarmOne").addEventListener("click",function(){
 
 //Click Event on button "stopAlarmTwo"
 document.getElementById("stopAlarmTwo").addEventListener("click",function(){
-    document.getElementById("stopAlarmOne").style.display = "none";
+    document.getElementById("stopAlarmTwo").style.display = "none";
     document.getElementById("audioplayer").pause();
     document.getElementById("audioplayer").load();
 });
