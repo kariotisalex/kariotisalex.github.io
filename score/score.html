@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Score Counter</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="score.css">
+
+</head>
+<body>
+        <nav  class="navbar navbar-default">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#new-new" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-header">
+                <a href="../index.html" class="navbar-brand">Alexander Kariotis</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="new-new">
+                <div class="nav navbar-nav">
+                    <li><a href="../about.html">About</a> </li>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Apps <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="../alarm/alarm.html">Online Alarm Clock</a></li>
+                              <li><a href="./score.html">Score Counter</a></li>
+                              <li><a href="../tic-tac-toe/ticTacToe.html"></a> </li>
+                            </ul>
+
+                    </li>
+                </div>
+              </div>
+            </nav>
+
+
+<div class="container">
+
+
+
+        <div id="scoreCounter">
+
+                    <h2 id="title">Score Counter</h2>
+                     <h1 style="margin:2%"> <span id="first"></span> vs <span id="last"></span></h1>
+
+                <h4>Playing to: <span id="playingTo"><input style="color:black" type="number" id="maxValue" min="5" placeholder="5"/></span> </h4>
+
+
+                <div style="margin:2%">
+                    <div class="btn-group btm-block">
+                    <button type="button" class="btn btn-primary btn-lg" id="btn-pone">Player One</button>
+                    <button type="button" class="btn btn-primary btn-lg" id="btn-ptwo" onclick="lastButton()">Player Two</button>
+                    <button type="button" class="btn btn-default btn-lg" id="btn-reset">Reset</button>
+                </div>
+                </div>
+        </div>
+
+
+
+ </div>
+ <div class="container" id="finalScore">
+
+
+
+                    <h3 id="title">Final Score</h3>
+                    <h4>Player One: <span id="pone-score">0</span></h4>
+                    <h4>Player Two: <span id="ptwo-score">0</span></h4>
+                    <button type="button" class="btn btn-default btn-lg" id="btn-totalScoreReset">Reset</button>
+
+
+ </div>
+
+
+
+
+    <script type="text/javascript" src="./score.js"></script>
+
+</body>
+</html>
